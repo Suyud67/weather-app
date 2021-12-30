@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(https://picsum.photos/1500/700);
+  background-repeat: no-repeat;
+  color: #fcfdfd;
+  text-shadow: 2px 2px #334756;
+}
+
+.container {
+  max-width: 500px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  height: auto;
+  margin: 10% auto;
+  padding: 1rem;
+  border-radius: 13px;
+}
+
+/* search box */
+.search-input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  width: 90%;
+  color: #334756;
+  /* border-radius: 32px; */
+  /* background-color: #334756; */
+  background: none;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 1rem;
+}
+
+.search-btn {
+  cursor: pointer;
+}
+
+/* akhir search box */
+
+/* main-menu */
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.suhu {
+  font-size: 1.4em;
+}
+
+.desc-img {
+  text-align: center;
+  font-size: 1.4em;
+}
+/* akhir main-menu */
+
+/* desc */
+.desc {
+  margin-top: 1rem;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  margin-right: 1.5rem;
+}
+
+.box p {
+  font-size: 1em;
+}
+/* akhir desc */
+
+/* query Tab */
+@media screen and (max-width: 850px) {
+  .search-input {
+    width: 70%;
+  }
+
+  .container {
+    margin: 40% auto;
+  }
+
+  body {
+    background-image: url(https://picsum.photos/900/1200);
+  }
+}
+
+/* query Hp */
+@media screen and (max-width: 400px) {
+  body {
+    background-image: url(https://picsum.photos/450/1000);
+  }
+
+  .container {
+    margin: 20% auto;
+  }
+}
+/* query mini hp */
+@media screen and (max-width: 350px) {
+  body {
+    background-image: url(https://picsum.photos/350/600);
+  }
+
+  .container {
+    margin: 20% auto;
+  }
+}
+
+/* query media besar */
+@media screen and (max-width: 1300px) {
+  body {
+    background-image: url(https://picsum.photos/1350/1200);
+  }
+}
