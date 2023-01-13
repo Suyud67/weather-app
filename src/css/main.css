@@ -138,16 +138,16 @@ button {
 .sun-icon {
   cursor: pointer;
   position: absolute;
-  left: 20%;
-  top: 10%;
+  left: 44px;
+  top: 44px;
   color: var(--bg-icons);
 }
 
 .moon-icon {
   cursor: pointer;
   position: absolute;
-  right: 20%;
-  top: 10%;
+  right: 44px;
+  top: 44px;
 }
 
 /* footer */
@@ -159,6 +159,15 @@ footer {
   padding: 1rem;
   border-radius: 14px;
   letter-spacing: 2px;
+}
+
+.link-acc:hover {
+  color: #f03a17;
+}
+
+.link-project {
+  text-decoration: underline;
+  color: #001a5f;
 }
 
 /* query view tablet */
@@ -184,16 +193,6 @@ footer {
 
   .icon {
     font-size: 3em;
-  }
-
-  .sun-icon {
-    left: 40px;
-    top: 40px;
-  }
-
-  .moon-icon {
-    left: 40px;
-    top: 40px;
   }
 
   footer {
